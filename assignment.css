@@ -1,0 +1,108 @@
+.table1
+{
+    border-collapse: collapse;
+    margin: 25px 0px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table1 thead tr
+{
+    background: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.table1 th,
+.table1 td
+{
+    padding: 12px 15px;
+}
+.table1 tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+}
+.table1 tbody tr:nth-of-type(even)
+{
+    background: #f3f3f3;
+}
+.table1 tbody tr:last-of-type
+{
+    border-bottom: 4px solid #009879;
+}
+.table1 tbody tr.active-row
+{
+    font-weight: bold;
+    color: #009879;
+}
+
+fieldset
+{
+    width: 320px;
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: 1px solid #009879;
+    border-radius: 6px;
+    min-width: 400px;
+    /*border-radius: 5px 5px 0 0;*/
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+legend
+{
+    font-size: 1.25em;
+    padding: 0.25em;
+    color: #999;
+}
+p
+{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    position: sticky;
+}
+label
+{
+    display: block;
+    margin-top: 1em;
+}
+label:first-of-type
+{
+    margin-top: 0;
+}
+input
+{
+
+    border-radius: 5px;
+    padding: .5em;
+    border: 1px solid #999;
+}
+input[type ="email"], input[type="text"]{
+    width: 100%;
+}
+.age-select
+{
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 100%;
+    color: white;
+    background-color: #009879;
+    font-size: 20px;
+}
+.age-select .icon-con
+{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-con
+{
+    font-size: 30px;
+    color: #ffff;
+}

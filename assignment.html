@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table& form</title>
+    <link rel="stylesheet" href="assignment.css">
+    <style>
+       /* table, th, td {
+            border: 1px solid black;
+        }*/
+    </style>
+</head>
+<body>
+    <table class="table1">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Domestic</td>
+                <td>88.110</td>
+                <td>dcode</td>
+            </tr>
+            <tr class="active-row">
+                <td>2</td>
+                <td>Sally</td>
+                <td>77.400</td>
+                <td>Students</td>
+            </tr>
+            <tr >
+                <td>3</td>
+                <td>Nick</td>
+                <td>52.300</td>
+                <td>dcode</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+           <p>Styled Selected Option <br> Field in Form</p>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="Email">Email</label>
+            <input type="email" id="Email">
+
+            <div>
+                <label for="Age">Age</label>
+            <select id="Age" class="age-select" >
+                <option>Choose your age here</option>
+                <option value="Below 18 years">Below 18 years</option>
+                <option value="18-25">between 18-25</option>
+                <option value="26-40">bettween 26-40</option>
+                <option value="40-60">between 40-60</option>
+                <option value="60 and above">Above 60</option>
+
+            </select>
+            <div class="icon-con">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            </div>
+            </div>
+            </fieldset>
+    </form>
+</body>
+</html>
